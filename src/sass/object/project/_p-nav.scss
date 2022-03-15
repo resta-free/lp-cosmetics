@@ -1,0 +1,17 @@
+@use "global" as *;
+
+.p-nav {
+
+}
+
+.p-nav__items {
+  display: flex;
+}
+
+.p-nav__item + .p-nav__item {
+  margin-left: rem(20);
+}
+
+.p-nav__item a {
+  width: rem(20);
+}

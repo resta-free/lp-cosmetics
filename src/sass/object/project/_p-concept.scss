@@ -1,0 +1,85 @@
+@use "global" as *;
+
+.p-concept {
+
+}
+
+.p-concept__inner {
+  @include mq('md') {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.p-concept__img {
+  position: relative;
+  width: 100%;
+  
+  @include mq('md') {
+    width: 54.6296%;
+  }
+}
+
+.p-concept__img::before {
+  content:"";
+  display: block;
+  padding-top: 86.8656%;
+  
+  @include mq('md') {
+    padding-top: 86.9491%;
+  }
+}
+
+.p-concept__img img {
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.p-concept__content {
+  background-color: #fff;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.07);
+  margin-top: rem(-25);
+  margin-left: auto;
+  margin-right: auto;
+  padding: rem(25);
+  width: 94%;
+  position: relative;
+
+  @include mq('md') {
+    margin-top: 0;
+    margin-left: rem(-50);
+    margin-right: initial;
+    width: 50%;
+    padding: rem(82) rem(70) rem(82) rem(50);
+  }
+}
+
+.p-concept__heading {
+
+}
+
+.p-concept__textBox {
+  margin-top: rem(24);
+
+  @include mq('md') {
+    margin-top: rem(30);
+  }
+}
+
+.p-concept__text {
+  font-size: rem(14);
+  font-weight: $medium;
+  line-height: 1.5;
+
+  @include mq('md') {
+    font-size: rem(16);
+  }
+}
+
+.p-concept__text + .p-concept__text {
+  margin-top: rem(20);
+}

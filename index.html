@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>化粧品LP</title>
+  <meta name="description" content="これは化粧品を紹介するランディングページです。" />
+  <meta name="keywords" content="化粧品" />
+  <!-- ogp -->
+  <meta property="og:title" content="化粧品LP" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://resta10.com/lp-cosmetics/" />
+  <meta property="og:image" content="https://resta10.com/lp-cosmetics/images/common/mv_img.jpg" />
+  <meta property="og:site_name" content="化粧品を紹介するサイト" />
+  <meta property="og:description" content="これは化粧品を紹介するランディングページです。" />
+  <meta name=”robots” content=”noindex”>
+
+  <!-- googleフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- ファビコン -->
+  <link rel="”icon”" href="./images/common/favicon.png" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- JavaScript -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <div class="l-top">
+    <div class="l-top__header p-header">
+      <div class="p-header__inner">
+        <h1 class="p-header__logo c-logo">
+          <a href="#" class="c-logo__link"><img src="./images/common/logo.svg" alt="サイトロゴ"></a>
+        </h1>
+        <nav class="p-header__nav p-nav">
+          <ul class="p-nav__items">
+            <li class="p-nav__item"><a href="#"><img src="./images/common/icon-user.svg" alt="ユーザーアイコン"></a></li>
+            <li class="p-nav__item"><a href="#"><img src="./images/common/icon-shopping-bag.svg" alt="ショッピングバッグアイコン"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div><!-- /p-header -->
+
+    <div class="p-mv">
+      <picture class="p-mv__img">
+        <source media="(max-width: 767px)" srcset="./images/common/mv_img-sp.jpg">
+        <img src="./images/common/mv_img.jpg" alt="メインビジュアル画像">
+      </picture>
+      <div class="p-mv__titleBlock">
+        <div class="p-mv__title">わたし史上<span>いちばん輝く素肌。</span></div>
+        <p class="p-mv__subtitle">肌質・体質に合わせた<span>パーソナライズスキンケア</span></p>
+        <div class="p-mv__button">
+          <a class="p-mv__link" href="#">
+            <p class="p-mv__buttonText">無料パーソナル診断を受けてみる</p>
+            <span class="p-mv__arrow c-arrow-right c-arrow-right--short"></span>
+          </a>
+        </div>
+      </div>
+      <a href="#" class="p-mv__cta p-cta-pc u-desktop">
+        <div class="p-cta-pc__icon"><img src="./images/common/icon-hexagon-red.svg" alt="簡単３分"></div>
+        <p class="p-cta-pc__title">無料パーソナル診断実施中</p>
+        <p class="p-cta-pc__text">10,000通りの中からあなたに
+          <span>ぴったりのスキンケアをご提案します</span></p>
+        <div class="p-cta-pc__img"><img src="./images/common/iphone_img.png" alt="スマホの画像"></div>
+      </a>
+    </div>
+
+    <!-- cta-sp -->
+    <div class="u-mobile">
+      <a href="#" class="p-cta-sp">
+        <div class="p-cta-sp__icon"><img src="./images/common/icon-hexagon-red.svg" alt="簡単３分"></div>
+        <p class="p-cta-sp__title">無料パーソナル診断はこちら</p>
+        <div class="p-cta-sp__img"><img src="./images/common/icon-arrow.svg" alt="矢印アイコン"></div>
+      </a>
+    </div>
+
+    <!-- coocept -->
+    <section class="l-top__concept p-concept wow fadeInUp" data-wow-offset="100">
+      <div class="p-concept__inner l-inner">
+        <div class="p-concept__img"><img src="./images/common/concept_img.jpg" alt=""></div>
+        <div class="p-concept__content">
+          <div class="p-concept__heading c-section-heading">
+            <h2 class="c-section-heading__title">コンセプト</h2>
+            <div class="c-section-heading__line"></div>
+          </div>
+          <div class="p-concept__textBox">
+            <p class="p-concept__text">肌はひとりひとり違うものだから、<br>
+              流行りにとらわれず、本当に良いものを求めるあなたへ。</p>
+            <p class="p-concept__text">10,000通りの組み合わせから<br>あなたの肌質や体質に最適なスキンケアをお届けします。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product -->
+    <section class="l-top__product p-product wow fadeInUp" data-wow-offset="100">
+      <div class="p-product__inner l-inner">
+        <div class="p-product__heading c-section-heading">
+          <h2 class="c-section-heading__title">商品一覧</h2>
+          <div class="c-section-heading__line c-section-heading__line--center"></div>
+        </div>
+        <ul class="p-product__items">
+          <li class="p-product__item">
+            <div class="p-product__img">
+              <img src="./images/common/product_img1.jpg" alt="商品画像">
+            </div>
+            <div class="p-product__caption">化粧水</div>
+            <p class="p-product__description">敏感肌、脂性肌、乾燥肌等あなたの肌の性質にあった水分量と油分量のバランスを整え、保水力と免疫力もアップします。</p>
+            <p class="p-product__text">内容量：200ml<span>使用目安：3ヶ月</span></p>
+            <div class="p-product__button">
+              <a class="p-product__link" href="#">
+                <p class="p-product__buttonText">詳しくはこちら</p>
+                <span class="p-product__arrow c-arrow-right c-arrow-right--normal"></span>
+              </a>
+            </div>
+          </li>
+          <li class="p-product__item">
+            <div class="p-product__img">
+              <img src="./images/common/product_img2.jpg" alt="商品画像">
+            </div>
+            <div class="p-product__caption">美容クリーム</div>
+            <p class="p-product__description">肌質に合わせた成分で、本来のしっとり柔らかな肌の再生、アンチエイジング効果もあります。</p>
+            <p class="p-product__text">内容量：60g<span>使用目安：3ヶ月</span></p>
+            <div class="p-product__button">
+              <a class="p-product__link" href="#">
+                <p class="p-product__buttonText">詳しくはこちら</p>
+                <span class="p-product__arrow c-arrow-right c-arrow-right--normal"></span>
+              </a>
+            </div>
+          </li>
+          <li class="p-product__item">
+            <div class="p-product__img">
+              <img src="./images/common/product_img3.jpg" alt="商品画像">
+            </div>
+            <div class="p-product__caption">乳液</div>
+            <p class="p-product__description">化粧水と美容クリームの後、潤いと美容成分を閉じ込めキープします。</p>
+            <p class="p-product__text">内容量：90g<span>使用目安：3ヶ月</span></p>
+            <div class="p-product__button">
+              <a class="p-product__link" href="#">
+                <p class="p-product__buttonText">詳しくはこちら</p>
+                <span class="p-product__arrow c-arrow-right c-arrow-right--normal"></span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- diagnose-flow -->
+    <section class="l-top__diagnose-flow p-diagnose-flow wow fadeInUp" data-wow-offset="100">
+      <div class="p-diagnose-flow__inner l-inner">
+        <div class="p-diagnose-flow__wrapper">
+          <div class="p-diagnose-flow__heading c-section-heading">
+            <h2 class="c-section-heading__title">パーソナル診断の流れ</h2>
+            <div class="c-section-heading__line c-section-heading__line--center"></div>
+          </div>
+          <div class="p-diagnose-flow__items">
+            <div class="p-diagnose-flow__item">
+              <div class="p-diagnose-flow__block p-diagnose">
+                <div class="p-diagnose__order">01</div>
+                <div class="p-diagnose__img">
+                  <img src="./images/common/diagbose_img1.png" alt="診断画像">
+                  <div class="p-diagnose__caption">診断を受ける</div>
+                  <div class="p-diagnose__text">3分程のオンライン美容分析診断を行い、あなたの肌の調子をチェックします。</div>
+                </div>
+              </div>
+            </div>
+            <div class="p-diagnose-flow__item is-arrow">
+              <div class="p-diagnose-flow__block p-diagnose">
+                <div class="p-diagnose__order">02</div>
+                <div class="p-diagnose__img">
+                  <img src="./images/common/diagbose_img3.png" alt="診断画像">
+                  <div class="p-diagnose__caption">スキンケアセットの提案</div>
+                  <div class="p-diagnose__text">分析結果を元に、10,000通りの組み合わせからあなたに最適な化粧品をご提案します。</div>
+                </div>
+              </div>
+            </div>
+            <div class="p-diagnose-flow__item is-arrow">
+              <div class="p-diagnose-flow__block p-diagnose">
+                <div class="p-diagnose__order">03</div>
+                <div class="p-diagnose__img">
+                  <img src="./images/common/diagbose_img2.png" alt="診断画像">
+                  <div class="p-diagnose__caption">玄関先まで送付</div>
+                  <div class="p-diagnose__text">2週間以内に玄関先または郵便ボックスにスキンケアセットをお届けします。</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-diagnose-flow__button">
+            <a class="p-diagnose-flow__link" href="#">
+              <p class="p-diagnose-flow__buttonText">無料パーソナル診断を受けてみる</p>
+              <span class="p-diagnose-flow__arrow c-arrow-right c-arrow-right--normal"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news -->
+    <section class="l-top__news p-news wow fadeInUp" data-wow-offset="100">
+      <div class="p-news__inner l-inner">
+        <div class="p-news__heading c-section-heading">
+          <h2 class="c-section-heading__title">お知らせ</h2>
+          <div class="c-section-heading__line c-section-heading__line--center"></div>
+        </div>
+        <dl class="p-news__list">
+          <a href="#" class="p-news__row">
+            <dt class="p-news__time">2021/12/01</dt>
+            <dd class="p-news__title">連休中の対応について</dd>
+          </a>
+          <a href="#" class="p-news__row">
+            <dt class="p-news__time">2021/10/12</dt>
+            <dd class="p-news__title">商品入荷のお知らせ</dd>
+          </a>
+          <a href="#" class="p-news__row">
+            <dt class="p-news__time">2021/9/13</dt>
+            <dd class="p-news__title">サイトオープンしました。</dd>
+          </a>
+        </dl>
+        <div class="p-news__button">
+          <a class="p-news__link" href="#">
+            <p class="p-news__buttonText">お知らせ一覧はこちら</p>
+            <span class="p-news__arrow c-arrow-right c-arrow-right--wide"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- price -->
+    <section class="l-top__price p-price wow fadeInUp" data-wow-offset="100">
+      <div class="p-price__inner l-inner">
+        <div class="p-price__wrapper">
+          <div class="p-price__border">
+            <div class="p-price__heading c-section-heading">
+              <h2 class="c-section-heading__title">初回限定価格</h2>
+              <div class="c-section-heading__line c-section-heading__line--center"></div>
+            </div>
+            <ul class="p-price__items">
+              <li class="p-price__item">
+                <p class="p-price__text">通常価格<span>（送料別）</span></p>
+                <div class="p-price__priceWrap">
+                  <p class="p-price__price">9,800<span>円</span></p>
+                  <p class="p-price__price-unit">（税込）</p>
+                </div>
+              </li>
+              <li class="p-price__item p-price-large is-arrow">
+                <p class="p-price-large__text">税込</p>
+                <div class="p-price-large__price">4,980<span class="p-price-large__price-unit">円</span></div>
+              </li>
+            </ul>
+            <div class="p-price__contentBox p-set-content">
+              <div class="p-set-content__titleWrap">
+                <h3 class="p-set-content__tertiary-title">セット内容</h3>
+              </div>
+              <div class="set-content__wrapper">
+                <div class="p-set-content__img"><img src="./images/common/product_img4.jpg" alt=""></div>
+                <div class="p-set-content__items">
+                  <p class="p-set-content__item">■化粧水　200ml　1本</p>
+                  <p class="p-set-content__item">■美容クリーム　60g　1個</p>
+                  <p class="p-set-content__item">■乳液　90g　1本</p>
+                  <div class="p-set-content__testWrap">
+                    <p class="p-set-content__text">さらに！30日間全額返金保証付き</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-price__button">
+              <a class="p-price__link" href="#">
+                <p class="p-price__buttonText">無料パーソナル診断を受けてみる</p>
+                <span class="p-price__arrow c-arrow-right c-arrow-right--short"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="p-footer">
+      <nav class="p-footer__nav">
+        <div class="p-footer__logo c-logo">
+          <a href="#" class="c-logo__link"><img src="./images/common/logo-white.svg" alt="サイトロゴ"></a>
+        </div>
+        <ul class="p-footer__items">
+          <li class="p-footer__item"><a href="#">マイページ</a></li>
+          <li class="p-footer__item"><a href="#">よくある質問</a></li>
+          <li class="p-footer__item"><a href="#">会社概要</a></li>
+          <li class="p-footer__item"><a href="#">お問い合わせ</a></li>
+        </ul>
+        <div class="p-footer__sns">
+          <a href="#" class="p-footer__icon"><img src="./images/common/icon-twitter.svg" alt="ツイッターアイコン"></a>
+          <a href="#" class="p-footer__icon"><img src="./images/common/icon-facebook.svg" alt="フェイスブックアイコン"></a>
+          <a href="#" class="p-footer__icon"><img src="./images/common/icon-ig.svg" alt="インスタグラムアイコン"></a>
+        </div>
+      </nav>
+      <p class="p-footer__copy">©︎to U</p>
+    </div><!-- /p-footer -->
+
+  </div>
+
+
+
+</body>
+
+</html>

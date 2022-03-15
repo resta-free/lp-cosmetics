@@ -1,0 +1,46 @@
+@use "global" as *;
+
+.p-cta-pc {
+  width: rem(388);
+  height: rem(130);
+  background-color: #EAF0F9;
+  position: fixed;
+  z-index: 10;
+  top: rem(644);
+  right: 0;
+  padding: rem(29) rem(120) rem(28) rem(30);
+}
+
+.p-cta-pc:hover {
+  opacity: 1;
+}
+
+.p-cta-pc__icon img {
+  width: rem(80);
+  height: rem(80);
+  position: absolute;
+  top: rem(-40);
+  left: rem(-30);
+}
+
+.p-cta-pc__title {
+  font-size: rem(18);
+  font-weight: $medium;
+  line-height: 1.16;
+  color: #000;
+}
+
+.p-cta-pc__text {
+  font-size: rem(14);
+  font-weight: $medium;
+  line-height: 1.5;
+  color: #000;
+  margin-top: rem(10);
+}
+
+.p-cta-pc__img img {
+  width: rem(70);
+  position: absolute;
+  right: rem(30);
+  top: rem(-15);
+}

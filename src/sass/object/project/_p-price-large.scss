@@ -1,0 +1,65 @@
+@use "global" as *;
+
+.p-price-large {
+  position: relative;
+}
+
+.p-price-large::after {
+  content:"送料無料";
+  position: absolute;
+  background-image: url(../images/common/icon-hexagon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: rem(60);
+  height: rem(60);
+  right: rem(-25);
+  top: rem(-10);
+  padding: rem(14) rem(13.6) rem(14) rem(13.4);
+  font-size: rem(16);
+  font-weight: $bold;
+  line-height: 1;
+  letter-spacing: 0.002em;
+  color: #fff;
+
+  @include mq('md') {
+    width: rem(94);
+    height: rem(94);
+    padding: rem(23) rem(22) rem(23) rem(23);
+    font-size: rem(24);
+    right: rem(-25);
+    top: rem(-10);
+  }
+}
+
+.p-price-large__text {
+  font-size: rem(18);
+  font-weight: $medium;
+  line-height: 1;
+  color: #8E8EAE;
+
+  @include mq('md') {
+    font-size: rem(30);
+  }
+}
+
+.p-price-large__price {
+  font-size: rem(80);
+  font-weight: $medium;
+  line-height: 1;
+  color: #8E8EAE;
+
+  @include mq('md') {
+    font-size: rem(150);
+  }
+}
+
+.p-price-large__price-unit {
+  font-size: rem(30);
+  font-weight: $medium;
+  line-height: 1;
+
+  @include mq('md') {
+    font-size: rem(75);
+  }
+}

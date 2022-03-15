@@ -1,0 +1,36 @@
+@use "global" as *;
+
+.p-cta-sp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #EAF0F9;
+  height: rem(78);
+  padding: rem(12) rem(20) rem(12) rem(17);
+}
+
+.p-cta-sp__icon {
+  width: rem(54);
+  height: rem(54);
+}
+
+.p-cta-sp__title {
+  font-size: rem(18);
+  font-weight: $medium;
+  line-height: 1;
+  color: #000;
+  margin-left: rem(17);
+}
+
+.p-cta-sp__img {
+  margin-left: rem(24);
+}
+
+.p-cta-sp__img img {
+  width: rem(8);
+}

@@ -1,0 +1,61 @@
+@use "global" as *;
+
+.p-diagnose {
+
+}
+
+.p-diagnose__order {
+  font-size: rem(70);
+  font-weight: $regular;
+  font-family: $second-font-family;
+  line-height: 1;
+  color: #8E8EAE;
+}
+
+.p-diagnose__img img {
+  width: 44.776%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq('md') {
+    max-width: rem(150);
+    width: 100%;
+  }
+}
+
+.p-diagnose__caption {
+  font-size: rem(20);
+  font-weight: $medium;
+  line-height: 1;
+  color: #000;
+  margin-top: rem(50);
+  text-align: center;
+
+  @include mq('md') {
+    margin-top: rem(20);
+  }
+}
+
+.p-diagnose__text {
+  font-size: rem(14);
+  font-weight: $medium;
+  line-height: 1.5;
+  color: #202020;
+  margin-top: rem(18);
+
+  @include mq('md') {
+    font-size: rem(16);
+    margin-top: rem(20);
+  }
+}
+
+.p-diagnose__triangle img {
+  width: rem(70);
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq('md') {
+    transform: rotate( -90deg);
+  }
+}

@@ -1,0 +1,53 @@
+@use "global" as *;
+
+.l-top {
+
+}
+
+.l-top__concept {
+  margin-top: rem(100);
+
+  @include mq('md') {
+    margin-top: rem(120);
+  }
+}
+
+.l-top__product {
+  margin-top: rem(100);
+
+  @include mq('md') {
+    margin-top: rem(120);
+  }
+}
+
+.l-top__diagnose-flow {
+  padding-top: rem(50);
+  padding-bottom: rem(50);
+  margin-top: rem(100);
+
+  @include mq('md') {
+    padding-top: rem(60);
+    padding-bottom: rem(60);
+    margin-top: rem(120);
+  }
+}
+
+.l-top__news {
+  margin-top: rem(100);
+
+  @include mq('md') {
+    margin-top: rem(120);
+  }
+}
+
+.l-top__price {
+  margin-top: rem(100);
+  padding-top: rem(50);
+  padding-bottom: rem(50);
+
+  @include mq('md') {
+    margin-top: rem(120);
+    padding-top: rem(60);
+    padding-bottom: rem(60);
+  }
+}
